@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div id="btn">
+                <div id="btn_ball"></div>
+            </div>
+            <p id="dark_light">Dark Mode</p>
+        </div>
+
+        <div id="searc_bar">
+            <img src="search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" height="50px">
+            <input type="text" placeholder="Search for your preffered city..." id="input">
+        </div>
+
+        <div id="submit">
+            <img src="location.png" alt=""> 
+            <h3>Current Location</h3>
+        </div>
+    </header>
+
+    <main>
+        <section id="sect_1">
+            <div id="first">
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <h1 id="temperature">Null</h1>
+                    <p style="display: flex; gap: 100px;">Feels like: <span id="Feels">Null</span></p>
+                </div>
+
+                <!-- <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div style="display: flex">
+                        <img src="sunrise.png" alt="" width="80px" id="sunrise">
+                        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;">
+                            <p>Sunrise</p>
+                            <p>06:37 AM</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex;">
+                        <img src="sunset.png" alt="" width="80px" id="sunset">
+                        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;">
+                            <p>Sunset</p>
+                            <p>20:37 AM</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div id="second">
+                <img src="sun.png" alt="" id="picture">
+                <h1 style="color: grey;" id="namess">Sunny</h1>
+            </div>
+
+
+            <div id="third">
+                <div>
+                    <img src="humidity.png" alt="" id="humidity">
+                    <h3 id="humidity_percent">0%</h3>
+                    <p>Humidity</p>
+                </div>
+                <div>
+                    <img src="wind.png" alt="" id="wind">
+                    <h3 id="wind_speed">2km/h</h3>
+                    <p>Wind Speed</p>
+                </div>
+                <div>
+                    <img src="pressure.png" alt="" id="pressure">
+                    <h3 id="pressure_number">997hPa</h3>
+                    <p>Pressure</p>
+                </div>
+                <div>
+                    <img src="UV.png" alt="" id="UV">
+                    <h3 id="UV_number">8</h3>
+                    <p style="position: relative; right: 20px;">UV</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
