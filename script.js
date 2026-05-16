@@ -36,7 +36,7 @@ document.getElementById('btn').addEventListener('click', () => {
     }
 })
 
-const API_KEY = process.env.API_KEY
+const API_KEY = '64dfe94a32474c07b45103424260905'
 const submit = document.getElementById('submit')
 
 const temperature = document.getElementById('temperature')
